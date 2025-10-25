@@ -1,6 +1,6 @@
-#include <data/quaternion.h>
+/:include <data/quaternion.h>
 
-namespace orbital_control
+namespace cobra
 {
 
 namespace data{
@@ -55,4 +55,4 @@ void Quaternion::serialize(std::ostream& os) const {
 }
 
 } /* namespace data */
-} /* namespace orbital_control */
+} /* namespace cobra */

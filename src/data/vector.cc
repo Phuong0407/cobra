@@ -1,7 +1,7 @@
 #include <data/vector.h>
 #include <limits>
 
-namespace orbital_control{
+namespace cobra{
 namespace data{
 
 Vector::Vector(double x0, double x1, double x2)
@@ -44,4 +44,4 @@ void Vector::serialize(std::ostream& os) const {
 }
 
 } /* namespace data */
-} /* namespace orbital_control */
+} /* namespace cobra */

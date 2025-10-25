@@ -4,7 +4,7 @@
 #include <cmath>
 #include <ostream>
 
-namespace orbital_control{
+namespace cobra {
 namespace data{
 
 class Quaternion {
@@ -27,6 +27,6 @@ private:
 };
 
 } /* namespace data */
-} /* namespace orbital_control */
+} /* namespace cobra */
 
 #endif /* include_data_quaternion_h */
